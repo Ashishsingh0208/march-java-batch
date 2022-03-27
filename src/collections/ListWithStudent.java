@@ -33,6 +33,8 @@ public class ListWithStudent {
         System.out.println("Printing Student information Rollno : "+student.getRollno());
         System.out.println("Printing Student information Section : "+student.getSection());
 
+        System.out.println("ONLINE  : "+student.getName() + " :" +student.getRollno()+ ": "+student.getSection());
+
         // setter method
         student.setName("JAVA");
         System.out.println("Printing Student information Name after using Setter method: "+student.getName());
