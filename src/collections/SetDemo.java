@@ -24,6 +24,8 @@ public class SetDemo {
             System.out.println("Printing SET "+var);
         }
 
+        HashSet <Integer >  integerHashSetHashSet= new HashSet<>();
+        integerHashSetHashSet.add(2);
 
     }
 
