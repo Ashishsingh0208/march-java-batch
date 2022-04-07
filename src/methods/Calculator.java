@@ -70,7 +70,7 @@ public class Calculator {
             }
 
             Scanner scanner1= new Scanner(System.in);
-            System.out.println("Do you want to  : press Y to EXIT or press N to continue");
+            System.out.println(" press Y to EXIT or press N to continue");
             String input= scanner1.nextLine();
             if(input.equals("Y")){
                 flag=0;
